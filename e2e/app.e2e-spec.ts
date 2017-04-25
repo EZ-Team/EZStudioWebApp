@@ -1,10 +1,10 @@
-import { TciWebappPage } from './app.po';
+import { EZStudioWebAppRoutingPage } from './app.po';
 
-describe('tci-webapp App', () => {
-  let page: TciWebappPage;
+describe('ezstudio-web-app-routing App', () => {
+  let page: EZStudioWebAppRoutingPage;
 
   beforeEach(() => {
-    page = new TciWebappPage();
+    page = new EZStudioWebAppRoutingPage();
   });
 
   it('should display message saying app works', () => {
